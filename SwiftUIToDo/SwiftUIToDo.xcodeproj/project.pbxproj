@@ -11,6 +11,7 @@
 		A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */; };
 		A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5202B615123005A42D3 /* LinkCustomView.swift */; };
 		A427B5232B616716005A42D3 /* AddGrident.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5222B616716005A42D3 /* AddGrident.swift */; };
+		A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */; };
 		A4F800DB2B612A7900014644 /* SwiftUIToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */; };
 		A4F800DD2B612A7900014644 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DC2B612A7900014644 /* ContentView.swift */; };
 		A4F800DF2B612A7900014644 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DE2B612A7900014644 /* Item.swift */; };
@@ -43,6 +44,7 @@
 		A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButtonStyleView.swift; sourceTree = "<group>"; };
 		A427B5202B615123005A42D3 /* LinkCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCustomView.swift; sourceTree = "<group>"; };
 		A427B5222B616716005A42D3 /* AddGrident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrident.swift; sourceTree = "<group>"; };
+		A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromUrl.swift; sourceTree = "<group>"; };
 		A4F800D72B612A7900014644 /* SwiftUIToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoApp.swift; sourceTree = "<group>"; };
 		A4F800DC2B612A7900014644 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				A4F800DC2B612A7900014644 /* ContentView.swift */,
 				A4F800DE2B612A7900014644 /* Item.swift */,
 				A427B5222B616716005A42D3 /* AddGrident.swift */,
+				A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */,
 				A4F800E02B612A7B00014644 /* Assets.xcassets */,
 				A4F800E22B612A7B00014644 /* Preview Content */,
 			);
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */,
 				A4F800DD2B612A7900014644 /* ContentView.swift in Sources */,
 				A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */,
 				A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */,
