@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41054C82B62CF0000C87F5F /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41054C72B62CF0000C87F5F /* HikeView.swift */; };
+		A41054CA2B62D1D900C87F5F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41054C92B62D1D900C87F5F /* CardView.swift */; };
+		A41054CD2B62DD7A00C87F5F /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41054CC2B62DD7A00C87F5F /* CustomBackgroundView.swift */; };
+		A41054D02B62E1C800C87F5F /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41054CF2B62E1C800C87F5F /* ColorExtension.swift */; };
+		A41054D22B62F98F00C87F5F /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41054D12B62F98F00C87F5F /* CustomButtonView.swift */; };
 		A427B51D2B615106005A42D3 /* LinkBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B51C2B615106005A42D3 /* LinkBasicView.swift */; };
 		A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */; };
 		A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5202B615123005A42D3 /* LinkCustomView.swift */; };
@@ -40,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A41054C72B62CF0000C87F5F /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		A41054C92B62D1D900C87F5F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A41054CC2B62DD7A00C87F5F /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		A41054CF2B62E1C800C87F5F /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A41054D12B62F98F00C87F5F /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		A427B51C2B615106005A42D3 /* LinkBasicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkBasicView.swift; sourceTree = "<group>"; };
 		A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkButtonStyleView.swift; sourceTree = "<group>"; };
 		A427B5202B615123005A42D3 /* LinkCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCustomView.swift; sourceTree = "<group>"; };
@@ -83,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A41054CB2B62DD3400C87F5F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A41054C92B62D1D900C87F5F /* CardView.swift */,
+				A41054D12B62F98F00C87F5F /* CustomButtonView.swift */,
+				A41054CC2B62DD7A00C87F5F /* CustomBackgroundView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A41054CE2B62E17600C87F5F /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A41054CF2B62E1C800C87F5F /* ColorExtension.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
 		A4F800CE2B612A7900014644 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +134,7 @@
 		A4F800D92B612A7900014644 /* SwiftUIToDo */ = {
 			isa = PBXGroup;
 			children = (
+				A41054CE2B62E17600C87F5F /* utility */,
 				A427B51C2B615106005A42D3 /* LinkBasicView.swift */,
 				A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */,
 				A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */,
@@ -114,6 +143,8 @@
 				A4F800DE2B612A7900014644 /* Item.swift */,
 				A427B5222B616716005A42D3 /* AddGrident.swift */,
 				A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */,
+				A41054C72B62CF0000C87F5F /* HikeView.swift */,
+				A41054CB2B62DD3400C87F5F /* Component */,
 				A4F800E02B612A7B00014644 /* Assets.xcassets */,
 				A4F800E22B612A7B00014644 /* Preview Content */,
 			);
@@ -277,10 +308,15 @@
 			files = (
 				A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */,
 				A4F800DD2B612A7900014644 /* ContentView.swift in Sources */,
+				A41054CD2B62DD7A00C87F5F /* CustomBackgroundView.swift in Sources */,
+				A41054D02B62E1C800C87F5F /* ColorExtension.swift in Sources */,
 				A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */,
 				A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */,
+				A41054CA2B62D1D900C87F5F /* CardView.swift in Sources */,
+				A41054C82B62CF0000C87F5F /* HikeView.swift in Sources */,
 				A427B51D2B615106005A42D3 /* LinkBasicView.swift in Sources */,
 				A4F800DF2B612A7900014644 /* Item.swift in Sources */,
+				A41054D22B62F98F00C87F5F /* CustomButtonView.swift in Sources */,
 				A4F800DB2B612A7900014644 /* SwiftUIToDoApp.swift in Sources */,
 				A427B5232B616716005A42D3 /* AddGrident.swift in Sources */,
 			);
