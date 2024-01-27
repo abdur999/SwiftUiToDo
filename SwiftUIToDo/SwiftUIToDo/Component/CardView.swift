@@ -64,10 +64,13 @@ struct CardView: View {
                  }
 //                 .buttonStyle(.borderedProminent)
 //                 .tint(.indigo)
-                 .padding(.vertical)
-                 .padding(.horizontal,30)
-                 .background(LinearGradient(colors: [.customGrayLight, .customGrayMedium], startPoint: .top, endPoint: .bottom))
-                 .cornerRadius(40)
+//                 .padding(.vertical)
+//                 .padding(.horizontal,30)
+                 
+//                 Rather than writing huge style statement its beneficial to use custom style benefits are It's reusable 
+//                 .background(LinearGradient(colors: [.customGrayLight, .customGrayMedium], startPoint: .top, endPoint: .bottom))
+//                 .cornerRadius(40)
+                 .buttonStyle(GradientButton())
             }
              
         }
