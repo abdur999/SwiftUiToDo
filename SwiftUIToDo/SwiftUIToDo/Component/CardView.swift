@@ -26,6 +26,7 @@ struct CardView: View {
                          } label: {
                             CustomButtonView()
                          }
+                         
                      }
                      
                      Text("Fun and enjoyable activities for friends and families")
@@ -51,7 +52,24 @@ struct CardView: View {
                         .resizable()
                         .scaledToFit()
                 }
+                 //MARK: - Footer
+                 Button {
+                     print("The button pressed")
+                 } label: {
+                     Text("Explore more")
+                         .font(.title2)
+                         .fontWeight(.heavy)
+                         .foregroundStyle(LinearGradient(colors: [.customGreenLight,.customGrayMedium], startPoint: .top, endPoint: .bottom))
+                         .shadow(color: .black, radius: 0.25,x: 1, y: 2)
+                 }
+//                 .buttonStyle(.borderedProminent)
+//                 .tint(.indigo)
+                 .padding(.vertical)
+                 .padding(.horizontal,30)
+                 .background(LinearGradient(colors: [.customGrayLight, .customGrayMedium], startPoint: .top, endPoint: .bottom))
+                 .cornerRadius(40)
             }
+             
         }
         .frame(width: 300, height: 400)
     }
