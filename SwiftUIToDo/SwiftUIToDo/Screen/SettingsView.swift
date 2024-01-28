@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct SettingsView: View {
+    //MARK: - PROPERTIES
+    private let alternativeAppIcons: [String] = [
+        "AppIcon-MagnifyingGlass",
+        "AppIcon-Map",
+        "AppIcon-Mushroom",
+        "AppIcon-Camera",
+        "AppIcon-Backpack",
+        "AppIcon-Campfire"
+    ]
     var body: some View {
         List{
             Section {
@@ -48,7 +57,40 @@ struct SettingsView: View {
             .multilineTextAlignment(.center)
             .padding(.bottom)
       
-            //MARK: - Section Icons
+        //MARK: - Section Icons
+            Section(header: Text("Alternate Icons")) {
+                ScrollView(.horizontal, showsIndicators:false) {
+                    HStack {
+                        ForEach(alternativeAppIcons.indices, id: \.self) { item in
+                            Button{
+                                print("Icon \(alternativeAppIcons[item]) was pressed")
+                                UIApplication.shared.setAlternateIconName(alternativeAppIcons[item]) { error in
+                                    if error != nil {
+                                        print("Failed request to upadte the app's icon: \(String(describing: error?.localizedDescription))")
+                                    } else {
+                                        print("Success! You have change the appiocn to \(alternativeAppIcons[item])")
+                                    }
+                                }
+                                
+                            } label: {
+                                Image("\(alternativeAppIcons[item])-Preview")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 80, height: 80)
+                                    .cornerRadius(16)
+                            }
+                            .buttonStyle(.borderless)
+                        }
+                    }
+            }//ScrollView
+                .padding(.top, 12)
+                Text("Choose your favourite icon from the collection above")
+                    .frame(minWidth: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/, maxWidth: .infinity)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.secondary)
+                    .font(.footnote)
+            } //: SECTION
+            .listRowSeparator(.hidden)
             
         //MARK: - Section About
             Section(
