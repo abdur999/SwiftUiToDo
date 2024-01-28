@@ -18,6 +18,10 @@
 		A427B5232B616716005A42D3 /* AddGrident.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5222B616716005A42D3 /* AddGrident.swift */; };
 		A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */; };
 		A4CDC34D2B65745F0011B6DD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC34C2B65745F0011B6DD /* GradientButton.swift */; };
+		A4CDC34F2B6588000011B6DD /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC34E2B6587FF0011B6DD /* CustomCircleView.swift */; };
+		A4CDC3512B658A120011B6DD /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC3502B658A120011B6DD /* MotionAnimationView.swift */; };
+		A4EED9512B66273700ED541D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EED9502B66273700ED541D /* SettingsView.swift */; };
+		A4EED9532B665A8B00ED541D /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EED9522B665A8B00ED541D /* CustomListRowView.swift */; };
 		A4F800DB2B612A7900014644 /* SwiftUIToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */; };
 		A4F800DD2B612A7900014644 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DC2B612A7900014644 /* ContentView.swift */; };
 		A4F800DF2B612A7900014644 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DE2B612A7900014644 /* Item.swift */; };
@@ -57,6 +61,10 @@
 		A427B5222B616716005A42D3 /* AddGrident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrident.swift; sourceTree = "<group>"; };
 		A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromUrl.swift; sourceTree = "<group>"; };
 		A4CDC34C2B65745F0011B6DD /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		A4CDC34E2B6587FF0011B6DD /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		A4CDC3502B658A120011B6DD /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		A4EED9502B66273700ED541D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A4EED9522B665A8B00ED541D /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		A4F800D72B612A7900014644 /* SwiftUIToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoApp.swift; sourceTree = "<group>"; };
 		A4F800DC2B612A7900014644 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +110,9 @@
 				A41054D12B62F98F00C87F5F /* CustomButtonView.swift */,
 				A41054CC2B62DD7A00C87F5F /* CustomBackgroundView.swift */,
 				A4CDC34C2B65745F0011B6DD /* GradientButton.swift */,
+				A4CDC34E2B6587FF0011B6DD /* CustomCircleView.swift */,
+				A4CDC3502B658A120011B6DD /* MotionAnimationView.swift */,
+				A4EED9522B665A8B00ED541D /* CustomListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -112,6 +123,14 @@
 				A41054CF2B62E1C800C87F5F /* ColorExtension.swift */,
 			);
 			path = utility;
+			sourceTree = "<group>";
+		};
+		A4EED94F2B66270B00ED541D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A4EED9502B66273700ED541D /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		A4F800CE2B612A7900014644 = {
@@ -143,6 +162,7 @@
 				A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */,
 				A427B5202B615123005A42D3 /* LinkCustomView.swift */,
 				A4F800DC2B612A7900014644 /* ContentView.swift */,
+				A4EED94F2B66270B00ED541D /* Screen */,
 				A4F800DE2B612A7900014644 /* Item.swift */,
 				A427B5222B616716005A42D3 /* AddGrident.swift */,
 				A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */,
@@ -313,7 +333,11 @@
 				A4F800DD2B612A7900014644 /* ContentView.swift in Sources */,
 				A41054CD2B62DD7A00C87F5F /* CustomBackgroundView.swift in Sources */,
 				A41054D02B62E1C800C87F5F /* ColorExtension.swift in Sources */,
+				A4EED9532B665A8B00ED541D /* CustomListRowView.swift in Sources */,
 				A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */,
+				A4EED9512B66273700ED541D /* SettingsView.swift in Sources */,
+				A4CDC3512B658A120011B6DD /* MotionAnimationView.swift in Sources */,
+				A4CDC34F2B6588000011B6DD /* CustomCircleView.swift in Sources */,
 				A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */,
 				A41054CA2B62D1D900C87F5F /* CardView.swift in Sources */,
 				A4CDC34D2B65745F0011B6DD /* GradientButton.swift in Sources */,
