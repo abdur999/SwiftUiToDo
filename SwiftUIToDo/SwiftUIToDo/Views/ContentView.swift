@@ -11,6 +11,8 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
+    
+    @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
 
     var body: some View {
 //        NavigationSplitView {
@@ -37,7 +39,16 @@ struct ContentView: View {
 //        } detail: {
 //            Text("Select an item")
 //        }
-        CardView()
+        
+//        CardViewalso hide due to test other function
+//        CardView()
+        ZStack {
+            if isOnboardingViewActive {
+                OnboardingView()
+            } else {
+                HomeView()
+            }
+        }
     }
 
     private func addItem() {

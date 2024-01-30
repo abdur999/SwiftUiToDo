@@ -5,14 +5,19 @@
 //  Created by Abdur Rahim on 30/01/24.
 //
 
-import SwiftUI
+import Foundation
+import AVFoundation
 
-struct audioPlayer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+var audioPlayer: AVAudioPlayer?
+func playSound(sound:String, type: String){
+    if let path = Bundle.main.path(forResource: sound, ofType: type) {
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            audioPlayer?.play()
+        } catch {
+            print("Could not play the sound file.")
+        }
     }
+    
 }
 
-#Preview {
-    audioPlayer()
-}

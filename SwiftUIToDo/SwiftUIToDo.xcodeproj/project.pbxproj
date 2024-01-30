@@ -17,9 +17,15 @@
 		A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5202B615123005A42D3 /* LinkCustomView.swift */; };
 		A427B5232B616716005A42D3 /* AddGrident.swift in Sources */ = {isa = PBXBuildFile; fileRef = A427B5222B616716005A42D3 /* AddGrident.swift */; };
 		A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */; };
+		A4ABF8D82B66A80900BDF45E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4ABF8D62B66A80900BDF45E /* chimeup.mp3 */; };
+		A4ABF8D92B66A80900BDF45E /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A4ABF8D72B66A80900BDF45E /* success.m4a */; };
+		A4ABF8DE2B66ACA900BDF45E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABF8DD2B66ACA900BDF45E /* OnboardingView.swift */; };
+		A4ABF8E02B66B0DD00BDF45E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABF8DF2B66B0DD00BDF45E /* HomeView.swift */; };
+		A4ABF8E22B66C86C00BDF45E /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4ABF8E12B66C86C00BDF45E /* CircleGroupView.swift */; };
 		A4CDC34D2B65745F0011B6DD /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC34C2B65745F0011B6DD /* GradientButton.swift */; };
 		A4CDC34F2B6588000011B6DD /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC34E2B6587FF0011B6DD /* CustomCircleView.swift */; };
 		A4CDC3512B658A120011B6DD /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDC3502B658A120011B6DD /* MotionAnimationView.swift */; };
+		A4DC08012B696C6000318301 /* audioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DC08002B696C6000318301 /* audioPlayer.swift */; };
 		A4EED9512B66273700ED541D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EED9502B66273700ED541D /* SettingsView.swift */; };
 		A4EED9532B665A8B00ED541D /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EED9522B665A8B00ED541D /* CustomListRowView.swift */; };
 		A4F800DB2B612A7900014644 /* SwiftUIToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */; };
@@ -60,9 +66,15 @@
 		A427B5202B615123005A42D3 /* LinkCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCustomView.swift; sourceTree = "<group>"; };
 		A427B5222B616716005A42D3 /* AddGrident.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGrident.swift; sourceTree = "<group>"; };
 		A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromUrl.swift; sourceTree = "<group>"; };
+		A4ABF8D62B66A80900BDF45E /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		A4ABF8D72B66A80900BDF45E /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		A4ABF8DD2B66ACA900BDF45E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A4ABF8DF2B66B0DD00BDF45E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A4ABF8E12B66C86C00BDF45E /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		A4CDC34C2B65745F0011B6DD /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		A4CDC34E2B6587FF0011B6DD /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		A4CDC3502B658A120011B6DD /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		A4DC08002B696C6000318301 /* audioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioPlayer.swift; sourceTree = "<group>"; };
 		A4EED9502B66273700ED541D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A4EED9522B665A8B00ED541D /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		A4F800D72B612A7900014644 /* SwiftUIToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +137,42 @@
 			path = utility;
 			sourceTree = "<group>";
 		};
+		A4ABF8DA2B66A81B00BDF45E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC07FF2B696BF900318301 /* Utilities */,
+				A4ABF8D62B66A80900BDF45E /* chimeup.mp3 */,
+				A4ABF8D72B66A80900BDF45E /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A4ABF8DB2B66A9E500BDF45E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4F800DC2B612A7900014644 /* ContentView.swift */,
+				A4ABF8DD2B66ACA900BDF45E /* OnboardingView.swift */,
+				A4ABF8E12B66C86C00BDF45E /* CircleGroupView.swift */,
+				A4ABF8DF2B66B0DD00BDF45E /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4ABF8DC2B66AA0200BDF45E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A4DC07FF2B696BF900318301 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A4DC08002B696C6000318301 /* audioPlayer.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		A4EED94F2B66270B00ED541D /* Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,13 +204,15 @@
 		A4F800D92B612A7900014644 /* SwiftUIToDo */ = {
 			isa = PBXGroup;
 			children = (
+				A4ABF8DA2B66A81B00BDF45E /* Sounds */,
 				A41054CE2B62E17600C87F5F /* utility */,
 				A427B51C2B615106005A42D3 /* LinkBasicView.swift */,
 				A427B51E2B61510D005A42D3 /* LinkButtonStyleView.swift */,
 				A4F800DA2B612A7900014644 /* SwiftUIToDoApp.swift */,
 				A427B5202B615123005A42D3 /* LinkCustomView.swift */,
-				A4F800DC2B612A7900014644 /* ContentView.swift */,
 				A4EED94F2B66270B00ED541D /* Screen */,
+				A4ABF8DB2B66A9E500BDF45E /* Views */,
+				A4ABF8DC2B66AA0200BDF45E /* Utilities */,
 				A4F800DE2B612A7900014644 /* Item.swift */,
 				A427B5222B616716005A42D3 /* AddGrident.swift */,
 				A45D4D8A2B62306F0026BD7C /* ImageFromUrl.swift */,
@@ -303,6 +353,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4ABF8D92B66A80900BDF45E /* success.m4a in Resources */,
+				A4ABF8D82B66A80900BDF45E /* chimeup.mp3 in Resources */,
 				A4F800E42B612A7B00014644 /* Preview Assets.xcassets in Resources */,
 				A4F800E12B612A7B00014644 /* Assets.xcassets in Resources */,
 			);
@@ -330,17 +382,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45D4D8B2B62306F0026BD7C /* ImageFromUrl.swift in Sources */,
+				A4DC08012B696C6000318301 /* audioPlayer.swift in Sources */,
 				A4F800DD2B612A7900014644 /* ContentView.swift in Sources */,
 				A41054CD2B62DD7A00C87F5F /* CustomBackgroundView.swift in Sources */,
 				A41054D02B62E1C800C87F5F /* ColorExtension.swift in Sources */,
 				A4EED9532B665A8B00ED541D /* CustomListRowView.swift in Sources */,
 				A427B5212B615123005A42D3 /* LinkCustomView.swift in Sources */,
 				A4EED9512B66273700ED541D /* SettingsView.swift in Sources */,
+				A4ABF8E22B66C86C00BDF45E /* CircleGroupView.swift in Sources */,
 				A4CDC3512B658A120011B6DD /* MotionAnimationView.swift in Sources */,
 				A4CDC34F2B6588000011B6DD /* CustomCircleView.swift in Sources */,
 				A427B51F2B61510D005A42D3 /* LinkButtonStyleView.swift in Sources */,
 				A41054CA2B62D1D900C87F5F /* CardView.swift in Sources */,
+				A4ABF8DE2B66ACA900BDF45E /* OnboardingView.swift in Sources */,
 				A4CDC34D2B65745F0011B6DD /* GradientButton.swift in Sources */,
+				A4ABF8E02B66B0DD00BDF45E /* HomeView.swift in Sources */,
 				A41054C82B62CF0000C87F5F /* HikeView.swift in Sources */,
 				A427B51D2B615106005A42D3 /* LinkBasicView.swift in Sources */,
 				A4F800DF2B612A7900014644 /* Item.swift in Sources */,
